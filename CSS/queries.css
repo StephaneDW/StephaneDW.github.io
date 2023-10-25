@@ -78,6 +78,11 @@
   .circle {
     width: 250px;
     height: 250px;
+    left:50%;
+  }
+
+  .backgroundcartoon {
+    left:50%;
   }
   .header {
     padding: 3.2em;
