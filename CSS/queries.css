@@ -32,6 +32,12 @@
 }
 
 @media (max-width: 75em) {
+  
+  .circles{
+    width: 250px;
+    height:250px;
+    left:50%;
+  }
   .heading-primary {
     font-size: 3.2em;
     margin-left: 0rem;
@@ -76,11 +82,6 @@
 
 @media (max-width: 50em) {
 
-  .circles{
-    width: 250px;
-    height:250px;
-    left:50%;
-  }
   .header {
     padding: 3.2em;
   }
