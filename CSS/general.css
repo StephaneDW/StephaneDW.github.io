@@ -339,7 +339,7 @@ li {
   display: grid;
   grid-template-columns: 7fr 3fr;
   gap: 10em;
-  margin-top: 4.8em;
+  margin-top: 3.2em;
 }
 
 .contact-form {
