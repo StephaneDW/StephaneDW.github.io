@@ -32,8 +32,6 @@
 }
 
 @media (max-width: 75em) {
-  
-    
   .heading-primary {
     font-size: 3.2em;
     margin-left: 0rem;
@@ -51,16 +49,6 @@
 }
 
 @media (max-width: 65em) {
-
-  .circle{
-    width: 250px;
-    height:250px;
-    left:50%;
-  }
-
-  .backgroundcartoon{
-    left:50%;
-  }
   .services-list li {
     padding: 2.2rem 2.2rem;
   }
@@ -82,12 +70,15 @@
     padding: 3.2rem;
     display: flex;
     flex-direction: column;
-    margin-top: 3.6rem;
+    margin-top: 3.2em;
   }
 }
 
 @media (max-width: 50em) {
-
+  .circle {
+    width: 250px;
+    height: 250px;
+  }
   .header {
     padding: 3.2em;
   }
@@ -113,9 +104,17 @@
     padding: 2.2rem 3.6rem;
   }
 
+  .contact {
+    width: 90%;
+  }
+
   .contact-form {
     display: flex;
     flex-direction: column;
+  }
+
+  .contact-list {
+    margin-top: 4.8em;
   }
 
   .portfolio h1 {
