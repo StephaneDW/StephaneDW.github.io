@@ -77,11 +77,11 @@
 @media (max-width: 50em) {
 
   .doodle{
-    display:hidden;
+    display:none;
   }
 
   .triangle{
-    display:hidden;
+    display:none;
   }
   .circle {
     width: 250px;
