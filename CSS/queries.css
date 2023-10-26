@@ -75,6 +75,14 @@
 }
 
 @media (max-width: 50em) {
+
+  .doodle{
+    display:hidden;
+  }
+
+  .triangle{
+    display:hidden;
+  }
   .circle {
     width: 250px;
     height: 250px;
