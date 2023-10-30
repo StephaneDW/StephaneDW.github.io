@@ -9,8 +9,9 @@
 
 @media (max-width: 84em) {
   .circle {
-    width: 350px;
-    height: 350px;
+    width: 243.75px;
+    height: 393.75px;
+    border-radius: 121.875px;
   }
 
   .heading-primary {
@@ -27,7 +28,7 @@
   }
 
   .backgroundcartoon {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -75,22 +76,16 @@
 }
 
 @media (max-width: 50em) {
-
-  .doodle{
-    display:none;
-  }
-
-  .triangle{
-    display:none;
-  }
   .circle {
-    width: 250px;
-    height: 250px;
-    left:50%;
+    width: 162.5px;
+    height: 262.5px;
+    border-radius: 81.25px;
+    left: 50%;
   }
 
   .backgroundcartoon {
-    left:50%;
+    width: 40%;
+    left: 50%;
   }
   .header {
     padding: 3.2em;
