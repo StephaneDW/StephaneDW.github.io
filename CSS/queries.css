@@ -26,10 +26,6 @@
   .services-list li {
     padding: 3.6rem 3.6rem;
   }
-
-  .backgroundcartoon {
-    width: 40%;
-  }
 }
 
 @media (max-width: 75em) {
@@ -46,6 +42,9 @@
 
   .heading-bottom {
     margin-left: 0rem;
+  }
+  .backgroundcartoon {
+    width: 25%;
   }
 }
 
