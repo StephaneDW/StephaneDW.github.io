@@ -184,7 +184,6 @@ h1 {
   left: 70%;
   transform: translate(-50%, -50%);
   width: 20%;
-  max-height: 525px;
   z-index: -5;
 }
 .section-services {
