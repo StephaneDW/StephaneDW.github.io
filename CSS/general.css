@@ -183,15 +183,15 @@ h1 {
   top: 50%;
   left: 70%;
   transform: translate(-50%, -50%);
-  width: 20%;
+  height: 75%;
+  width: auto;
   z-index: -5;
 }
 .section-services {
   width: 97%;
   margin: 0px auto;
   border-radius: 50px;
-  border: 2px solid #192bc2;
-  background-color: #ff9900;
+  background-color: #192bc2;
   position: relative;
   z-index: -5;
   padding-top: 8rem;
@@ -201,8 +201,8 @@ h1 {
 .heading-services {
   line-height: 0.8;
   text-align: center;
-  font-weight: 900;
   font-size: 6.4rem;
+  color: white;
 }
 
 .services-list {
@@ -220,9 +220,10 @@ h1 {
 .services-list li {
   padding: 3.6rem 6.4rem;
   border-radius: 25px;
-  background-color: #fff;
-  border: 2px solid #192bc2;
-  box-shadow: 6px 6px 0px #192bc2;
+  color: white;
+  background-color: #192bc2;
+  border: 3px solid white;
+  box-shadow: 6px 6px 0px white;
 }
 
 /*#services-title {
@@ -235,15 +236,15 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 4.8rem;
-  color: #192bc2;
+  color: white;
   display: box;
   text-align: center;
   line-height: 70px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: 2px solid #192bc2;
-  background-color: white;
+  border: 3px solid white;
+  background-color: #192bc2;
   margin-bottom: 3.2rem;
   margin-left: auto;
   margin-right: auto;
@@ -253,7 +254,7 @@ h1 {
   margin-bottom: 1.6em;
   font-family: "Urbanist", sans-serif;
   font-size: 2.2em;
-  color: #192bc2;
+  color: white;
   font-weight: 900;
   text-align: center;
 }
@@ -263,7 +264,7 @@ h1 {
   font-size: 1.6em;
   line-height: 1.6em;
   font-weight: 400;
-  color: #4150dc;
+  color: white;
 }
 
 .portfolio {
@@ -274,8 +275,7 @@ h1 {
 .content_portfolio {
   width: 97%;
   margin: 0px auto;
-  background-color: #ccffcc;
-  border: 2px solid #192bc2;
+  background-color: rgb(216, 239, 248);
   border-radius: 25px;
   height: 50vh;
   margin-top: 3.2em;
