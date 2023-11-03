@@ -51,6 +51,14 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+@font-face {
+  font-family: "aestheticregular";
+  src: url("../Fonts/aestheticregular-yzraq-webfont.woff2") format("woff2"),
+    url("../Fonts/aestheticregular-yzraq-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -175,7 +183,7 @@ h1 {
 }
 
 .heading-bottom {
-  margin-top: 2.2rem;
+  margin-top: 3.2rem;
 }
 
 .backgroundcartoon {
@@ -286,7 +294,7 @@ h1 {
 }
 
 .content_portfolio h1 {
-  font-size: 6.4em;
+  font-size: 4.8em;
 }
 
 .content_portfolio p {
@@ -428,6 +436,15 @@ h1 {
 }
 
 .list-item p {
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #4150dc;
+}
+
+.list-item a {
+  text-decoration: none;
   font-family: "Urbanist", sans-serif;
   font-size: 1.6em;
   line-height: 1.2em;
